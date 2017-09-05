@@ -1,144 +1,114 @@
 /* The style sheet for BeDapperDesigns. */
-/* Style Reset Rule */
-body, header, div, footer, h1, h3, h5, p, ul, li, span, article, aside
-{
-  margin: 0;
-  border: 0;
-  padding: 0;
-}
-
 body
 {
   background: linear-gradient(130deg, #D46C15, #994908);
 }
 
-a
-{
-  text-decoration-style: none;
-  text-decoration: none;
-}
-
 header
 {
-  font-size: 1.2em;
-  margin: auto;
-  margin-bottom: 2.5%;
-  padding: 1.1em;
   background: linear-gradient(60deg, #3D3D3D, #595959);
-}
-
-.container
-{
-  margin: auto;
-  width: 88%;
-  height: 100em;
-}
-
-.rightBox0
-{
-  height: 23em;
-  width: 37%;
-  background: linear-gradient(-60deg, #3D3D3D, #595959);
-  float: right;
-}
-
-.leftBox0
-{
-  height: 23em;
-  width: 63%;
-  background: linear-gradient(-60deg, #279696, #0D7F7F);
-  float: right;
-}
-
-.rightBox1
-{
-  height: 23em;
-  width: 63%;
-  background: linear-gradient(-60deg, #FA4141, #D41515);
-  background-color: white;
-  float: right;
-}
-
-.leftBox1
-{
-  height: 23em;
-  width: 37%;
-  background-color: white;
-  background: linear-gradient(-60deg, #3D3D3D, #595959);
-  float: right;
-  margin: 0;
-}
-
-.rightBox2
-{
-  height: 23em;
-  width: 37%;
-  background-color: white;
-  background: linear-gradient(-60deg, #3D3D3D, #595959);
-  float: right;
-  margin: 0;
-}
-
-.leftBox2
-{
-  height: 23em;
-  width: 63%;
-  background: linear-gradient(-60deg, #11A911, #067A06);
-  float: right;
-  margin: 0;
-}
-
-.clear
-{
-  clear: both;
+  font-family: 'Lobster', cursive;
 }
 
 h1
 {
   text-align: center;
-  margin: auto;
+  font-size: 2.1em;
+}
+
+/*.titleLink
+{
+  background-color: #f5f5f5;
+  border-color: black;
+  border-style: solid;
+  border-width: .2em;
+  border-radius: 50px;
+  font-size: .9em;
+  width: 4em;
+  height: 4em;
+  text-align: center;
+  padding-top: 1em;
+  float: right;
+}*/
+
+.titleLink
+{
+  color: #D41515;
+  float: right;
+  padding: .3em;
+  padding-top: 1.2em;
+}
+
+.box0
+{
+  height: 30em;
+  background: linear-gradient(-60deg, #279696, #0D7F7F);
+}
+
+.box1
+{
+  height: 30em;
+  background: linear-gradient(-60deg, #3D3D3D, #595959);
+}
+
+.box2
+{
+  height: 30em;
+  background: linear-gradient(-60deg, #FA4141, #D41515);
+}
+
+.box3
+{
+  height: 30em;
+  background: linear-gradient(-60deg, #3D3D3D, #595959);
+}
+
+.box4
+{
+  height: 30em;
+  background: linear-gradient(-60deg, #11A911, #067A06);
+}
+
+.box5
+{
+  height: 48em;
+  background-color: #f5f5f5;
+  background: linear-gradient(130deg, #D46C15, #994908);
+  background-image: url(images/wall4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1
+{
+  text-align: center;
   color: #279696;
-}
-
-nav
-{
-  text-align: center;
-}
-
-ul
-{
-  margin: auto;
-
-  text-align: center;
-  text-decoration: none;
-}
-
-li
-{
-  list-style: none;
-  text-decoration: none;
-  display: inline-block;
-  margin: 0.7em;
-  margin-bottom: 0;
 }
 
 .logoCap
 {
-  color: #990808;
+  color: #D41515;
 }
 
-/* Manage Links */
 a:link
 {
-  color: #0D7F7F;
-}
-
-a:hover
-{
-  color: #0D7F7F;
+  color: white;
 }
 
 a:visited
 {
-  color: #0D7F7F;
+  color: white;
+}
+
+a:hover
+{
+  color: #D41515;
+  border-color: black;
+  border-style: solid;
+  border-width: .2em;
+  border-radius: 50px;
+  background-color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+
 }
