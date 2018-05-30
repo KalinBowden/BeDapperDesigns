@@ -12,6 +12,9 @@ header
   background: linear-gradient(60deg, #3D3D3D, #595959);
   font-family: 'Poppins', sans-serif;
   text-align: center;
+ position: sticky;
+  top: 0px;
+  z-index: 2;
 }
 
 header h1
@@ -78,8 +81,9 @@ h6
 
 .box0
 {
-  height: 30em;
   background: linear-gradient(-60deg, #3D3D3D, #595959);
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .box1
@@ -122,10 +126,32 @@ h1
   color: #279696;
 }
 
-.home h4
+.home h3
 {
   color: whitesmoke;
+  font-size: 2.0em;
+}
+
+.home
+{
+  margin-top:1.5em;
   text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Lobster', cursive;                          
+}
+
+.home p
+{
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home p i 
+{
+  font-size: 8em;
+  margin-top: .1em;
+  color: #279696;;
 }
 
 .logoCap
@@ -141,9 +167,4 @@ a:link
 a:visited
 {
   color: white;
-}
-
-a:hover
-{
-
 }
